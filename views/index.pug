@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    link(rel='stylesheet' href='index.css')
+    title Learning rxjs
+  body
+    div.container
+      div.header
+        h1 RxJS Letter Counting Example
+        p(class='lead')
+          | Example to show getting the current length of the input.
+      div.row
+        p Text buffer
+          input(type='text' id='toCount')
+        p#result Start typing
+    script(src='lettercount.js')
