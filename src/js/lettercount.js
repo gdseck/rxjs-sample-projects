@@ -10,8 +10,8 @@
 
   const setHtml = text => {
     console.log(text)
-    this.innerHtml = text
+    $result.innerHTML = text
   }
 
   source.subscribe(setHtml.bind($result))
-})()
+}())

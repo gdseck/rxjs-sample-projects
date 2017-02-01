@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  paddin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -9,4 +9,20 @@ body {
   text-align: center;
   background: #fff;
   color: #060;
+}
+
+.container {
+  background: linear-gradient(top, #b3b3b0 0%,#e3e2dd 500px);
+  margin: 0 auto;
+  margin-top: 4rem;
+  background: lightgrey;
+  max-width: 50rem;
+  padding: 2rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  color: #000;
+}
+
+.header {
+  margin-bottom: 2rem;
 }
